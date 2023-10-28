@@ -54,6 +54,10 @@ html{
     object-fit: contain;
 }
 
+.map-section > div{
+    display: none;
+}
+
 .home-btn > .left-arrow {
     padding: 1.39rem 1.55rem;
     background: var(--gold-colour);
@@ -237,5 +241,18 @@ html{
     }
     .footer-socials{
         justify-content: start;
+    }
+    .map-section > img{
+        display: none;
+        width: 100%;
+    }
+    
+    .map-section > div{
+        display: flex;
+        max-width: 100%;
+    }
+    .map-section > div > img {
+        max-width: 100%;
+        object-fit: contain;
     }
 }
