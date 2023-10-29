@@ -369,9 +369,10 @@ a > p {
 
   .hero-right-btn > p {
     font-size: 1.125rem;
-font-style: normal;
 font-weight: 300;
 line-height: 1.75rem;
+left: 13.25rem;
+top: 12rem;
   }
 
   
@@ -379,7 +380,7 @@ line-height: 1.75rem;
     flex-direction: column;
   }
   .showcase-section{
-    padding-top: 7.5rem;
+    padding: 7.5rem 1.5rem;
   }
   .hero-h1-tablet{
     font-size: 3.75rem;
@@ -431,7 +432,7 @@ line-height: 3.4375rem;
     max-width: 100%;
   }
   .showcase-info2{
-    padding: 2rem;
+    padding: 1.5rem;
   }
   .showcase-info2 > h2 {
     font-size: 3.125rem;
@@ -440,13 +441,12 @@ font-weight: 900;
 line-height: 2.8125rem;
   }
   .hero-h1-tablet{
-    padding-right: 0;
     
     width:16rem;
   }
   .hero-btn {
+    width:20rem;
     padding-top: 0;
-    width:16rem;
   }
   .right-btn-text > button {
     padding: 1rem 1rem;
@@ -457,4 +457,3 @@ line-height: 2.8125rem;
     
 }
 }
-
